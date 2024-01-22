@@ -6,6 +6,8 @@ app.get("/api/get", (req, res) => {
   res.send({ message: "hello back to nodejs" });
 });
 
+//
+
 app.get("/api/get_user_details", (req, res) => {
   res.send({
     user: {
